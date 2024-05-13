@@ -15,7 +15,6 @@ export default function App() {
   //4
   const editedItemIndex = useRef(null);
   // eslint-disable-next-line
-  const [isSaving, setIsSaving] = useState([]);
 
   const handleDelete = (id) => {
     setTodos(todos.filter((_, index) => index !== id));
